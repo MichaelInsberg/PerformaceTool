@@ -17,4 +17,8 @@
         <DocumentationFile>$(SolutionDir)\Docs\$(MSBuildProjectName).xml</DocumentationFile>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\PerformanceTool.Contracts\PerformanceTool.Contracts.csproj" />
+    </ItemGroup>
+
 </Project>

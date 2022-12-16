@@ -1,8 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfomanceTool", "PerfomanceTool\PerfomanceTool.csproj", "{2C11FE3C-F329-4A55-A541-85B1B53883B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceTool", "PerformanceTool\PerformanceTool.csproj", "{2C11FE3C-F329-4A55-A541-85B1B53883B9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceTool.Contracts", "PerformanceTool.Contracts\PerformanceTool.Contracts.csproj", "{30C020C2-C761-4B47-96F4-83B182C68B44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceTool.Tests", "PerformanceTool.Tests\PerformanceTool.Tests.csproj", "{12F7C70A-8AE8-415E-A835-E76BB1E58EE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceTool.UI", "PerformanceTool.UI\PerformanceTool.UI.csproj", "{C3507A84-3C4E-49BE-BE99-628779B9CF94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +22,13 @@ Global
 		{30C020C2-C761-4B47-96F4-83B182C68B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30C020C2-C761-4B47-96F4-83B182C68B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30C020C2-C761-4B47-96F4-83B182C68B44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12F7C70A-8AE8-415E-A835-E76BB1E58EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F7C70A-8AE8-415E-A835-E76BB1E58EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F7C70A-8AE8-415E-A835-E76BB1E58EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F7C70A-8AE8-415E-A835-E76BB1E58EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3507A84-3C4E-49BE-BE99-628779B9CF94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3507A84-3C4E-49BE-BE99-628779B9CF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3507A84-3C4E-49BE-BE99-628779B9CF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3507A84-3C4E-49BE-BE99-628779B9CF94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
